@@ -6,10 +6,15 @@ import Areas from "./sections/areas"
 import FAQs from "./sections/faqs"
 import Hero from "./sections/hero"
 import Schedule from "./sections/schedule"
-
+import { motion } from "framer-motion"
 export function App() {
   return (
-    <div className="flex min-h-dvh flex-col mx-auto max-w-[1920px]">
+    <motion.div 
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      transition={{duration:0.8}}
+      className="flex min-h-dvh flex-col mx-auto max-w-[1920px]"
+    >
       <Header/>
       <hr></hr>
       <Hero/>
@@ -23,7 +28,7 @@ export function App() {
       <div className="sm:h-20 h-10"></div>
       <Footer/>
       <ScrollToTopButton/>
-    </div>
+    </motion.div>
   )
 }
 
