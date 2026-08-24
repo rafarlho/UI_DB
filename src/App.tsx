@@ -1,5 +1,6 @@
 import Footer from "./components/footer"
 import { Header } from "./components/header"
+import ScrollToTopButton from "./components/scrool-to-top-button"
 import AboutMe from "./sections/about-me"
 import Areas from "./sections/areas"
 import FAQs from "./sections/faqs"
@@ -21,6 +22,7 @@ export function App() {
       <Schedule/>
       <div className="sm:h-20 h-10"></div>
       <Footer/>
+      <ScrollToTopButton/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import {Dot} from "lucide-react"
 function Hero() {
     return (
         <section className="flex sm:h-150 h-100  relative">
-            <div className="bg-[url(hero-bg.jpg)] inset-0 absolute bg-cover bg-center bg-no-repeat"></div>
+            <div className="bg-[url(/hero-bg.jpg)] inset-0 absolute bg-cover bg-center bg-no-repeat"></div>
             <div className="absolute inset-0 bg-linear-to-r from-background via-background/90 to-transparent"/>
             
             <div className="z-10 flex flex-col max-w-200 sm:m-20 m-5 justify-evenly" >
