@@ -42,8 +42,8 @@ function FAQs() {
     ]
 
     return (
-        <section id="faqs" className="flex gap-5 flex-col p-10 bg-foreground/2">
-            <h1 className="text-4xl font-heading">FAQs</h1>
+        <section id="faqs" className="flex gap-5 flex-col sm:p-10 p-5 bg-foreground/2 scroll-mt-20">
+            <h1 className="sm:text-4xl text-2xl font-heading">FAQs</h1>
             <hr className="bg-primary h-1 rounded-4xl w-20"></hr>
 
             {faqs.map((faq,i) => (
