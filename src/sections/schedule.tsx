@@ -13,8 +13,8 @@ function Schedule() {
 
     return (
         <section id="contacts" className="flex gap-5 flex-col py-10 scroll-mt-20">
-            <h1 className="ml-10 text-4xl font-heading">Marcação de consultas</h1>
-            <hr className="ml-10 bg-primary h-1 rounded-4xl w-20"></hr>
+            <h1 className="sm:ml-10 ml-5 sm:text-4xl text-2xl font-heading">Marcação de consultas</h1>
+            <hr className="sm:ml-10 ml-5 bg-primary h-1 rounded-4xl w-20"></hr>
             
             <div className="flex flex-wrap gap-5 px-5">
                 <Card className="relative mx-auto w-full max-w-sm pt-0 justify-center">
@@ -35,7 +35,7 @@ function Schedule() {
                         {/* <img alt="Diana Botelho - Terapeura da fala" src="DB_Logo_Name.png" className="h-50 justify-self-center"/> */}
                     </div>
                     <CardHeader>
-                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl">São Mateus Hospital Viseu</CardTitle>
+                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl text-center">São Mateus Hospital Viseu</CardTitle>
                     </CardHeader>
                     <CardFooter>
                         <Button className="w-full " size={"lg"} variant={"outlined_primary"}><a href="https://saomateushospital.pt/" target="_blank" className="flex gap-2"><ExternalLink/>Contactar</a></Button>
@@ -46,7 +46,7 @@ function Schedule() {
                         {/* <img alt="Diana Botelho - Terapeura da fala" src="DB_Logo_Name.png" className="h-50 justify-self-center"/> */}
                     </div>
                     <CardHeader>
-                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl">JS Clínica Médica</CardTitle>
+                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl text-center">JS Clínica Médica</CardTitle>
                     </CardHeader>
                     <CardFooter>
                         <Button className="w-full " size={"lg"} variant={"outlined_primary"}><a href="https://jsclinica.pt/" target="_blank" className="flex gap-2"><ExternalLink/>Contactar</a></Button>

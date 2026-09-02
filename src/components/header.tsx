@@ -12,11 +12,7 @@ export function Header() {
     return (
         <div className="max-h-20 flex justify-between items-center w-full p-6">
             <div className="flex gap-2 items-center">
-                <img className="max-h-20" alt="TF Diana Botelho Logo" src={resolvedTheme  === "light" ? "DB_Logo.svg": "DB_Logo_White.svg"}/>
-                <div>
-                    <h1 className="font-heading sm:text-4xl text-2xl">Diana Botelho</h1>
-                    <h3 className="font-heading text-lg">Terapeuta da fala</h3>
-                </div>
+                <img className="max-h-18"  alt="TF Diana Botelho Logo" src={resolvedTheme  === "light" ? "DBNameCharcoal.png": "DBNameOffWhite.png"}/>
             </div>
             {isSmallScreen ? 
                 (<DropdownMenu>
