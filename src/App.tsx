@@ -15,8 +15,10 @@ export function App() {
       transition={{duration:0.8}}
       className="flex min-h-dvh flex-col mx-auto max-w-[1920px]"
     >
-      <Header/>
-      <hr></hr>
+      <div className="sticky top-0 z-50 bg-background w-full">
+        <Header/>
+        <hr></hr>
+      </div>
       <Hero/>
       <AboutMe/>
       <div className="sm:h-20 h-10"></div>
