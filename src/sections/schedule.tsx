@@ -35,7 +35,7 @@ function Schedule() {
                         {/* <img alt="Diana Botelho - Terapeura da fala" src="DB_Logo_Name.png" className="h-50 justify-self-center"/> */}
                     </div>
                     <CardHeader>
-                        <CardTitle className="justify-self-center text-foreground/60 font-bold text-2xl">São Mateus Hospital Viseu</CardTitle>
+                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl">São Mateus Hospital Viseu</CardTitle>
                     </CardHeader>
                     <CardFooter>
                         <Button className="w-full " size={"lg"} variant={"outlined_primary"}><a href="https://saomateushospital.pt/" target="_blank" className="flex gap-2"><ExternalLink/>Contactar</a></Button>
@@ -46,7 +46,7 @@ function Schedule() {
                         {/* <img alt="Diana Botelho - Terapeura da fala" src="DB_Logo_Name.png" className="h-50 justify-self-center"/> */}
                     </div>
                     <CardHeader>
-                        <CardTitle className="justify-self-center text-foreground/60 font-bold text-2xl">JS Clínica Médica</CardTitle>
+                        <CardTitle className="justify-self-center text-foreground font-bold text-2xl">JS Clínica Médica</CardTitle>
                     </CardHeader>
                     <CardFooter>
                         <Button className="w-full " size={"lg"} variant={"outlined_primary"}><a href="https://jsclinica.pt/" target="_blank" className="flex gap-2"><ExternalLink/>Contactar</a></Button>
