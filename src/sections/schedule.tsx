@@ -19,7 +19,7 @@ function Schedule() {
             <div className="flex flex-wrap gap-5 px-5">
                 <Card className="relative mx-auto w-full max-w-sm pt-0 justify-center">
                     <div>
-                        <img alt="Diana Botelho - Terapeura da fala" src={ resolvedTheme ==="light" ? "DB_Logo_Name.png": "DB_Logo_Name_OffWhite.png"} className="h-50 justify-self-center"/>
+                        <img alt="Diana Botelho - Terapeura da fala" src={ resolvedTheme ==="light" ? "DB_Logo_Name.png": "DB_Logo_Name_OffWhite.png"} className="h-50 block mx-auto"/>
                     </div>
                     <CardHeader>
                         <CardTitle className="justify-self-center text-primary font-bold text-2xl">Contacto Direto</CardTitle>
