@@ -20,9 +20,11 @@ function Hero() {
                     <h3>DESENVOLVIMENTO</h3>
                 </div>
                 <div className="flex sm:justify-start justify-center">
-                    <Button variant={"outlined_primary"} size={"lg"} >
-                        <a href="#about">SABER MAIS</a> <ArrowDown/>
-                    </Button>
+                    <a href="#about">
+                        <Button variant={"outlined_primary"} size={"lg"} >
+                            SABER MAIS <ArrowDown/>
+                        </Button>
+                    </a>
                 </div>
             </div>
         </section>
