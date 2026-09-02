@@ -22,10 +22,10 @@ export function Header() {
                 (<DropdownMenu>
                     <DropdownMenuTrigger><Menu/></DropdownMenuTrigger>
                     <DropdownMenuContent>
-                        <DropdownMenuItem><a href="#about">Sobre</a></DropdownMenuItem>
-                        <DropdownMenuItem><a href="#areas">Áreas</a></DropdownMenuItem>
-                        <DropdownMenuItem><a href="#faqs">FAQs</a></DropdownMenuItem>
-                        <DropdownMenuItem><a href="#contacts">Contactos</a></DropdownMenuItem>
+                        <a href="#about"><DropdownMenuItem>Sobre</DropdownMenuItem></a>
+                        <a href="#areas"><DropdownMenuItem>Áreas</DropdownMenuItem></a>
+                        <a href="#faqs"><DropdownMenuItem>FAQs</DropdownMenuItem></a>
+                        <a href="#contacts"><DropdownMenuItem>Contactos</DropdownMenuItem></a>
                         <DropdownMenuItem  onClick={() => (setTheme(resolvedTheme === "light" ? "dark": "light"))}> Mudar tema {resolvedTheme === "light" ? <Moon /> : <Sun/>}</DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>)
