@@ -42,7 +42,7 @@ function FAQs() {
     ]
 
     return (
-        <section id="faqs" className="flex gap-5 flex-col p-10 bg-foreground/2">
+        <section id="faqs" className="flex gap-5 flex-col p-10 bg-foreground/2 scroll-mt-20">
             <h1 className="text-4xl font-heading">FAQs</h1>
             <hr className="bg-primary h-1 rounded-4xl w-20"></hr>
 

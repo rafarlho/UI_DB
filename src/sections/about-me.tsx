@@ -5,7 +5,7 @@ function AboutMe() {
     const isSmallScreen = useMediaQuery({maxWidth:640})
 
     if(isSmallScreen) 
-        return <section id="about" className="flex flex-col items-start justify-center gap-5 p-10 bg-foreground/2 font-sans text-xl">
+        return <section id="about" className="flex flex-col items-start justify-center gap-5 p-10 bg-foreground/2 font-sans text-xl scroll-mt-20">
             <div className="flex flex-row items-center w-full justify-between">
                 <div className="flex flex-col gap-5 ">
                     <h1 className="text-4xl font-heading">Sobre mim</h1>
@@ -51,7 +51,7 @@ function AboutMe() {
         </section>
 
     return (
-        <section id="about" className="grid grid-cols-3  items-center justify-center py-10 bg-foreground/2">
+        <section id="about" className="grid grid-cols-3  items-center justify-center py-10 bg-foreground/2 scroll-mt-20">
             <img alt="Profile picture" src="perfil.jpeg" className="rounded-4xl max-h-80 border-10 border-primary justify-self-center"></img>
             <div className="flex flex-col gap-5 col-span-2 text-xl px-10">
                 <h1 className="text-4xl font-heading">Sobre mim</h1>

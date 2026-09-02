@@ -16,7 +16,7 @@ function Areas() {
     const {resolvedTheme }  = useTheme()
 
     return (
-        <section id="areas" className="flex gap-5 flex-col py-10">
+        <section id="areas" className="flex gap-5 flex-col py-10 scroll-mt-20">
             <h1 className="ml-10 text-4xl font-heading">Áreas onde intervenho</h1>
             <hr className="ml-10 bg-primary h-1 rounded-4xl w-20"></hr>
             <div className="sm:py-12 py-5 overflow-hidden relative bg-accent">
