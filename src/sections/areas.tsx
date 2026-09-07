@@ -17,7 +17,7 @@ function Areas() {
 
     return (
         <section id="areas" className="flex gap-5 flex-col py-10 scroll-mt-20">
-            <h1 className="sm:ml-10 ml-5 sm:text-4xl text-2xl font-heading">Áreas onde intervenho</h1>
+            <h2 className="sm:ml-10 ml-5 sm:text-4xl text-2xl font-heading">Áreas onde intervenho</h2>
             <hr className="sm:ml-10 ml-5 bg-primary h-1 rounded-4xl w-20"></hr>
             <div className="sm:py-12 py-5 overflow-hidden relative bg-accent">
 
@@ -28,7 +28,7 @@ function Areas() {
                     {[...areas, ...areas].map((area, i) => (
                         <div key={i} className={`flex flex-col ${resolvedTheme  === "dark" ? "text-primary": "text-background"} items-center gap-2 sm:mx-20 mx-5  shrink-0 font-bold`}>
                             {area.icon}
-                            <h1 className="font-heading text-sm whitespace-nowrap sm:text-xl">{area.name}</h1>
+                            <h2 className="font-heading text-sm whitespace-nowrap sm:text-xl">{area.name}</h2>
                         </div>
                     ))}
                 </div>
