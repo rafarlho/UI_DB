@@ -13,7 +13,7 @@ function Schedule() {
 
     return (
         <section id="contacts" className="flex gap-5 flex-col py-10 scroll-mt-20">
-            <h1 className="sm:ml-10 ml-5 sm:text-4xl text-2xl font-heading">Marcação de consultas</h1>
+            <h2 className="sm:ml-10 ml-5 sm:text-4xl text-2xl font-heading">Marcação de consultas</h2>
             <hr className="sm:ml-10 ml-5 bg-primary h-1 rounded-4xl w-20"></hr>
             
             <div className="flex flex-wrap gap-5 px-5">

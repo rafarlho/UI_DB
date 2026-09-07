@@ -8,7 +8,7 @@ function AboutMe() {
         return <section id="about" className="flex flex-col min-h-[calc(100dvh-80px)] items-start justify-center gap-5 sm:p-10 p-5 bg-foreground/2 font-sans text-xl scroll-mt-20">
             <div className="flex flex-row items-center w-full justify-between">
                 <div className="flex flex-col gap-5 ">
-                    <h1 className="text-2xl font-heading">Sobre mim</h1>
+                    <h2 className="text-2xl font-heading">Sobre mim</h2>
                     <hr className="bg-primary h-1 rounded-4xl w-20"></hr>
                     <p>Olá, sou a Diana.</p>
                 </div>
@@ -55,7 +55,7 @@ function AboutMe() {
         <section id="about" className="h-[calc(100dvh-80px)] min-h-min max-h-250 grid grid-cols-3  items-center justify-center py-10 bg-foreground/2 scroll-mt-20">
             <img alt="Profile picture" src="perfil.jpeg" className="rounded-4xl max-h-80 border-10 border-primary justify-self-center"></img>
             <div className="flex flex-col gap-5 col-span-2 text-xl px-10">
-                <h1 className="text-4xl font-heading">Sobre mim</h1>
+                <h2 className="text-4xl font-heading">Sobre mim</h2>
                 <hr className="bg-primary h-1 rounded-4xl w-20"></hr>
                 
                 <p>Olá, sou a Diana.</p>
