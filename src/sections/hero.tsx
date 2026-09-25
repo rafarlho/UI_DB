@@ -13,7 +13,7 @@ function Hero() {
                     <h1 className="font-heading sm:text-5xl text-2xl text-primary font-bold">não é só "ensinar a falar"</h1>
                 </div>
                 <div className="font-heading flex sm:flex-row flex-col sm:items-start items-center max-w-150 justify-between text-primary/90 text-xl">
-                    <h3 >COMUNICAÇÂO</h3>
+                    <h3 >COMUNICAÇÃO</h3>
                     <Dot/>
                     <h3>LIGAÇÃO</h3>
                     <Dot/>
